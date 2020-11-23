@@ -1,0 +1,437 @@
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior:  smooth;
+}
+
+
+
+p
+{
+  font-weight :300; 
+  color: #111;
+
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(oo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    
+    
+
+
+}
+.banner .content 
+{
+    
+    text-align: center;
+}
+.banner .content h2
+{
+    font-size: 4em;
+    color: #fff;
+}
+.banner .content p
+{
+font-size: 1em;
+color: #fff;
+}
+.btn
+{
+    font-size: 1em;
+color: #fff;
+background: #ff0157;
+display: inline-block;
+padding: 10px 30px;
+margin-top: 20px;
+text-transform: uppercase;
+transition: 0.5s;
+text-decoration: none;
+letter-spacing: 2px;
+}
+.btn:hover
+{
+letter-spacing: 6px;
+}
+header
+{
+  position: fixed;
+top: 0;
+left: 0;
+ 
+width: 100%;
+padding:40px 100px ;
+
+
+
+z-index: 10000;
+display: flex;
+justify-content: space-around ;
+
+transition: 0.5s;
+
+
+
+
+
+}
+
+}
+body
+{
+    min-height: 1000px;
+}
+
+header .logo
+{
+   color: #fff; 
+   font-weight: 700;
+   font-size: 2em;
+   text-decoration: none;
+   float: left;
+   margin-left: -250px;
+
+}
+ header.sticky .logo
+{
+    color: black;
+}
+header.sticky
+{
+background-color: #fff;
+padding: 10px 100px;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 05);
+}
+header .logo span
+{
+    color: #ff0157;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+    float: right;
+    margin-right: -150px;
+    
+
+}
+header .navigation li{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: 350ms ease-out;
+}
+header.sticky .navigation li a
+{
+    color: black;
+}
+header .navigation li a:hover
+{
+    color: #ff0157;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+header .navigation li a:focus-visible
+{
+    color: #ff0157;
+}
+
+#menu
+{
+    padding: 50px;
+    padding-top: 100px;
+}
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.row .col50
+{
+    position: relative;
+    width: 40%;
+    
+}
+.tittleText
+{
+    color: black;
+    font-size: 2em;
+    font-weight: 300;
+}
+.tittleText span
+{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+
+}
+.row .col50 .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgBx
+{
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box
+{
+    width: 40%;
+}
+.title
+{
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.menu .content
+{
+    display:flex ;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box
+{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid white;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 01);
+z-index: 900;
+}
+
+
+#about
+{
+    padding: 100px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+.menu .content .box .text
+{
+    padding: 15px 0px 5px;
+}
+.menu .content .box .text h3
+{
+    font-weight: 400;
+    color: #111;
+}
+
+#expert
+{
+    padding: 50px;
+    padding-top: 100px;
+}
+.expert .content{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ flex-direction: row;  
+ margin-top: 40px; 
+}
+.expert .content .box
+{
+  width: 250px; 
+  margin: 15px;
+
+}
+.expert .content .box .imgBx
+{
+  position: relative ;
+  width: 100%;
+  height: 300px;  
+}
+.expert .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.expert .content .box
+{
+    width: 300px;
+    margin: 20px;
+    border: 15px solid white;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 01);
+z-index: 900;
+}
+.about .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    margin-top: 40px; 
+   }
+   .expert .content .box .text
+{
+    padding: 15px 0px 5px;
+}
+.expert .content .box .text h3
+{
+    font-weight: 400;
+    color: #111;
+}
+.Testimonials
+{
+    background: url(test.jpg);
+    background-size: cover;
+
+}
+.white .tittleText ,
+.white p
+{
+color: #fff;
+}
+.Testimonials .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    margin-top: 40px; 
+   }
+   .Testimonials .content .box
+   {
+       width: 200px;
+       margin: 20px;
+       background: #fff;
+       padding: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .Testimonials .content .box .imgBx
+   {
+position: relative;
+width: 80px;
+height: 80px;
+margin-bottom: 20px;
+border-radius:50%;
+overflow: hidden;
+
+   }
+#testimonials
+{
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.Testimonials .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Testimonials .content .box .text
+{
+    text-align: center;
+}
+.Testimonials .content .box .text p
+{
+    color: #665;
+    font-style: italic;
+}
+.Testimonials .content .box .text h3
+{
+    margin-top: 20px;
+    color: #111;
+    font-size: 1em;
+    color: #ff0157;
+    font-weight: 600;
+}
+.contact .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    margin-top: 40px; 
+   }
+
+   .contact .content .box
+   {
+    width: 300px;
+    margin: 20px;
+    
+    padding:40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   .contact .content .box input
+   {
+       margin-bottom: 30px;
+       width: 400px;
+       height: 30px;
+       border-top: none;
+       border-left: none;
+       border-right: none;
+       border-bottom: 2px solid #111;
+   }
+    .comment
+   {
+       height: 60px;
+       border-radius: 5px;
+       border: 1px #111;
+   }
+   #contact
+   {
+       padding: 50px;
+       padding-top: 100px;
+   }
